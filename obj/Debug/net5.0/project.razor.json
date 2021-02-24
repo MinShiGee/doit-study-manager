@@ -12,35 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -2043645548,
+        "HashCode": 512180787,
         "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.Index",
+        "Name": "DoiT_Study_Manager.Pages.Counter",
         "AssemblyName": "DoiT Study Manager",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.Index"
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Counter"
         }
       },
       {
-        "HashCode": -1897118181,
+        "HashCode": -926268387,
         "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.Index",
+        "Name": "DoiT_Study_Manager.Pages.Counter",
         "AssemblyName": "DoiT Study Manager",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DoiT_Study_Manager.Pages.Index"
+            "TagName": "DoiT_Study_Manager.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.Index",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -78,35 +78,68 @@
         }
       },
       {
-        "HashCode": 512180787,
+        "HashCode": -2126555307,
         "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.Counter",
+        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
         "AssemblyName": "DoiT Study Manager",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.Counter"
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login"
         }
       },
       {
-        "HashCode": -926268387,
+        "HashCode": -448681354,
         "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.Counter",
+        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
         "AssemblyName": "DoiT Study Manager",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DoiT_Study_Manager.Pages.Counter"
+            "TagName": "DoiT_Study_Manager.Pages.Identity.Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.Counter",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2043645548,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Pages.Index",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1897118181,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Pages.Index",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DoiT_Study_Manager.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -59413,6 +59446,11 @@
     {
       "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Pages\\HtmlEditor.razor",
       "TargetPath": "Pages\\HtmlEditor.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Pages\\Identity\\Login.razor",
+      "TargetPath": "Pages\\Identity\\Login.razor",
       "FileKind": "component"
     },
     {

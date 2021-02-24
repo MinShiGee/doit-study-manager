@@ -1,0 +1,31 @@
+@page "/identity/Account/Login"
+
+<h2 style="margin-top: 1rem;">Login</h2>
+<hr>
+        <RadzenCard style = "width: 40%">
+            <RadzenLogin AllowRegister="true" AllowResetPassword="true" Username=@userName Password=@password
+                            Login=@(args => OnLogin(args, "Login with default values"))
+                            ResetPassword=@(args => OnResetPassword(args, "Login with default values"))
+                            Register=@(args => OnRegister("Login with default values"))
+                            Style="margin-bottom: 20px;" />
+        </RadzenCard>
+
+@code {
+    string userName = "";
+    string password = "";
+
+    void OnLogin(LoginArgs args, string name)
+    {
+
+    }
+
+    void OnRegister(string name)
+    {
+
+    }
+
+    void OnResetPassword(string value, string name)
+    {
+
+    }
+}

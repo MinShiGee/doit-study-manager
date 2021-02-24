@@ -101,3 +101,5 @@ C:\Users\MinShiGee\Desktop\doit-study-manager\obj\Debug\net5.0\DoiT Study Manage
 C:\Users\MinShiGee\Desktop\doit-study-manager\obj\Debug\net5.0\DoiT Study Manager.genruntimeconfig.cache
 C:\Users\MinShiGee\Desktop\doit-study-manager\obj\Debug\net5.0\RazorDeclaration\Pages\HtmlEditor.razor.g.cs
 C:\Users\MinShiGee\Desktop\doit-study-manager\obj\Debug\net5.0\Razor\Pages\HtmlEditor.razor.g.cs
+C:\Users\MinShiGee\Desktop\doit-study-manager\obj\Debug\net5.0\RazorDeclaration\Pages\Identity\Login.razor.g.cs
+C:\Users\MinShiGee\Desktop\doit-study-manager\obj\Debug\net5.0\Razor\Pages\Identity\Login.razor.g.cs
