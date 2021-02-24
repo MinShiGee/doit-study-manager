@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\DoiT Study Manager.csproj": {}
+    "C:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\DoiT Study Manager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\DoiT Study Manager.csproj": {
+    "C:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\DoiT Study Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\DoiT Study Manager.csproj",
+        "projectUniqueName": "C:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\DoiT Study Manager.csproj",
         "projectName": "DoiT Study Manager",
-        "projectPath": "C:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\DoiT Study Manager.csproj",
+        "projectPath": "C:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\DoiT Study Manager.csproj",
         "packagesPath": "C:\\Users\\MinShiGee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\obj\\",
+        "outputPath": "C:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MinShiGee\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "Radzen.Blazor": {
               "target": "Package",
               "version": "[3.1.1, )"

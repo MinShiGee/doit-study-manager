@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\DoiT Study Manager.csproj",
+  "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\DoiT Study Manager.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -45,6 +45,39 @@
         }
       },
       {
+        "HashCode": -1461346364,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Pages.HtmlEditor",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HtmlEditor"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.HtmlEditor"
+        }
+      },
+      {
+        "HashCode": 874282788,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Pages.HtmlEditor",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DoiT_Study_Manager.Pages.HtmlEditor"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.HtmlEditor",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 512180787,
         "Kind": "Components.Component",
         "Name": "DoiT_Study_Manager.Pages.Counter",
@@ -78,35 +111,121 @@
         }
       },
       {
-        "HashCode": 461692050,
+        "HashCode": -540479048,
         "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.FetchData",
+        "Name": "DoiT_Study_Manager.App",
         "AssemblyName": "DoiT Study Manager",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.FetchData"
+          "Common.TypeName": "DoiT_Study_Manager.App"
         }
       },
       {
-        "HashCode": -246027113,
+        "HashCode": -1650208936,
         "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.FetchData",
+        "Name": "DoiT_Study_Manager.App",
         "AssemblyName": "DoiT Study Manager",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DoiT_Study_Manager.Pages.FetchData"
+            "TagName": "DoiT_Study_Manager.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.FetchData",
+          "Common.TypeName": "DoiT_Study_Manager.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1357376306,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Shared.LoginDisplay",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Shared.LoginDisplay"
+        }
+      },
+      {
+        "HashCode": -1222327987,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Shared.LoginDisplay",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DoiT_Study_Manager.Shared.LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Shared.LoginDisplay",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1704231137,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Shared.SurveyPrompt",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -1470573456,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Shared.SurveyPrompt",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DoiT_Study_Manager.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -236,92 +355,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DoiT_Study_Manager.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1704231137,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Shared.SurveyPrompt",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -1470573456,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Shared.SurveyPrompt",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DoiT_Study_Manager.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -540479048,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.App",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.App"
-        }
-      },
-      {
-        "HashCode": -1650208936,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.App",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DoiT_Study_Manager.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -59358,54 +59391,69 @@
   "RootNamespace": "DoiT_Study_Manager",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\Shared\\NavMenu.razor",
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\App.razor",
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\Shared\\SurveyPrompt.razor",
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Areas\\Identity\\Pages\\Account\\LogOut.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\LogOut.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Pages\\HtmlEditor.razor",
+      "TargetPath": "Pages\\HtmlEditor.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Areas\\Identity\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Shared\\LoginDisplay.razor",
+      "TargetPath": "Shared\\LoginDisplay.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\Pages\\_Host.cshtml",
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\DoiT Study Manager\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
+      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
