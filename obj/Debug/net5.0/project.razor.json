@@ -78,39 +78,6 @@
         }
       },
       {
-        "HashCode": -2126555307,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login"
-        }
-      },
-      {
-        "HashCode": -448681354,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DoiT_Study_Manager.Pages.Identity.Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -2043645548,
         "Kind": "Components.Component",
         "Name": "DoiT_Study_Manager.Pages.Index",
@@ -144,6 +111,39 @@
         }
       },
       {
+        "HashCode": -2126555307,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login"
+        }
+      },
+      {
+        "HashCode": -448681354,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DoiT_Study_Manager.Pages.Identity.Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -540479048,
         "Kind": "Components.Component",
         "Name": "DoiT_Study_Manager.App",
@@ -173,39 +173,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DoiT_Study_Manager.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1357376306,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Shared.LoginDisplay",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LoginDisplay"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Shared.LoginDisplay"
-        }
-      },
-      {
-        "HashCode": -1222327987,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Shared.LoginDisplay",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DoiT_Study_Manager.Shared.LoginDisplay"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Shared.LoginDisplay",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -59457,11 +59424,6 @@
       "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Areas\\Identity\\Pages\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\Shared\\LoginDisplay.razor",
-      "TargetPath": "Shared\\LoginDisplay.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\MinShiGee\\Desktop\\doit-study-manager\\_Imports.razor",

@@ -104,13 +104,13 @@ using Radzen;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\MinShiGee\Desktop\doit-study-manager\Shared\NavMenu.razor"
+#line 25 "C:\Users\MinShiGee\Desktop\doit-study-manager\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
-    private void ToggleNavMenu()
+    public void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
     }
