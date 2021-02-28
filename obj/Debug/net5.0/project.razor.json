@@ -45,6 +45,39 @@
         }
       },
       {
+        "HashCode": -2126555307,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login"
+        }
+      },
+      {
+        "HashCode": -448681354,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DoiT_Study_Manager.Pages.Identity.Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1461346364,
         "Kind": "Components.Component",
         "Name": "DoiT_Study_Manager.Pages.HtmlEditor",
@@ -107,39 +140,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DoiT_Study_Manager.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -2126555307,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login"
-        }
-      },
-      {
-        "HashCode": -448681354,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Pages.Identity.Login",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DoiT_Study_Manager.Pages.Identity.Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Pages.Identity.Login",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -226,6 +226,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DoiT_Study_Manager.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1773208042,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Shared.NavMenu",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 526150072,
+        "Kind": "Components.Component",
+        "Name": "DoiT_Study_Manager.Shared.NavMenu",
+        "AssemblyName": "DoiT Study Manager",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DoiT_Study_Manager.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DoiT_Study_Manager.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -322,39 +355,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "DoiT_Study_Manager.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1773208042,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Shared.NavMenu",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 526150072,
-        "Kind": "Components.Component",
-        "Name": "DoiT_Study_Manager.Shared.NavMenu",
-        "AssemblyName": "DoiT Study Manager",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DoiT_Study_Manager.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DoiT_Study_Manager.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

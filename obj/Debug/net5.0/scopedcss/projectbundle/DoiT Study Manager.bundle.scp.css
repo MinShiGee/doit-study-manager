@@ -87,6 +87,14 @@
     font: italic small-caps bold 24px/2 cursive;
   }
   
+  .topnav p[b-wb6ypqvqcv]{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font: italic small-caps bold 28px cursive;
+  }
+
   .topnav a:hover[b-wb6ypqvqcv] {
     background-color: #ddd;
     color: black;
