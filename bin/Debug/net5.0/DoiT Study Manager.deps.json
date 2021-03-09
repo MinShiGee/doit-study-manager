@@ -25,6 +25,8 @@
     ".NETCoreApp,Version=v5.0": {
       "DoiT Study Manager/1.0.0": {
         "dependencies": {
+          "Blazored.SessionStorage": "1.0.13",
+          "EmbeddedBlazorContent": "1.10.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.3",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.3",
           "Microsoft.AspNetCore.Identity.UI": "5.0.3",
@@ -313,6 +315,32 @@
         },
         "compile": {
           "DoiT Study Manager.dll": {}
+        }
+      },
+      "Blazored.SessionStorage/1.0.13": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.0",
+          "Microsoft.AspNetCore.Components.Web": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazored.SessionStorage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazored.SessionStorage.dll": {}
+        }
+      },
+      "EmbeddedBlazorContent/1.10.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/EmbeddedBlazorContent.dll": {
+            "assemblyVersion": "1.10.0.0",
+            "fileVersion": "1.10.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/EmbeddedBlazorContent.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -2484,6 +2512,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Blazored.SessionStorage/1.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uVFmwMSiK0P+JNI66B5nKiGn+BVsipgEmkMd/SJjV4tcnqrDj+RpOreh+h91v0//erhp4IBCvo72+KWYoUuwhg==",
+      "path": "blazored.sessionstorage/1.0.13",
+      "hashPath": "blazored.sessionstorage.1.0.13.nupkg.sha512"
+    },
+    "EmbeddedBlazorContent/1.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LgsO3NdCNwGdB/k+RbOBTevBtfAoA35ooBR1fi6bXX7OPt/tpV3B5b/i5jNe+1ZSvCWqnoL9WobxyZKnDwELeA==",
+      "path": "embeddedblazorcontent/1.10.0",
+      "hashPath": "embeddedblazorcontent.1.10.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

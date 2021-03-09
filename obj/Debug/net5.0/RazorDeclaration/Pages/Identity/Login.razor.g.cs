@@ -96,6 +96,13 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\MinShiGee\Desktop\doit-study-manager\Pages\Identity\Login.razor"
+using Doit_Study_Manager.Data;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/identity/Account/Login")]
     public partial class Login : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -105,14 +112,14 @@ using Radzen;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 13 "C:\Users\MinShiGee\Desktop\doit-study-manager\Pages\Identity\Login.razor"
+#line 18 "C:\Users\MinShiGee\Desktop\doit-study-manager\Pages\Identity\Login.razor"
        
     string userName = "";
     string password = "";
 
     void OnLogin(LoginArgs args, string name)
     {
-
+        var res = ValidateUser();
     }
 
     void OnRegister(string name)
@@ -125,9 +132,22 @@ using Radzen;
 
     }
 
+    private async Task<bool> ValidateUser(){
+        ((CustomAuthenticationStateProvider)AuthenticationStateProvider).MarkUserAsAuthenticated(userName);
+        NavigationManager.NavigateTo("/");
+
+        await sessionStorage.SetItemAsync("studentCode",userName);
+
+        return await Task.FromResult(true);
+    }
+
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JSRuntime { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private Blazored.SessionStorage.ISessionStorageService sessionStorage { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthenticationStateProvider { get; set; }
     }
 }
 #pragma warning restore 1591

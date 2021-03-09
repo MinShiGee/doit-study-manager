@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace DoiT_Study_Manager.Pages
+namespace DoiT_Study_Manager.Pages.Etc
 {
     #line hidden
     using System;
@@ -105,7 +105,7 @@ using Radzen;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\MinShiGee\Desktop\doit-study-manager\Pages\HtmlEditor.razor"
+#line 33 "C:\Users\MinShiGee\Desktop\doit-study-manager\Pages\Etc\HtmlEditor.razor"
        
     string value = "";
 

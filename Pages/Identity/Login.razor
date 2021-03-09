@@ -1,5 +1,10 @@
 @page "/identity/Account/Login"
 
+@using Doit_Study_Manager.Data;
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+@inject IJSRuntime JSRuntime
 <h2 style="margin-top: 1rem;">Login</h2>
 <hr>
         <RadzenCard style = "width: 40%">
@@ -16,7 +21,7 @@
 
     void OnLogin(LoginArgs args, string name)
     {
-
+        var res = ValidateUser();
     }
 
     void OnRegister(string name)
@@ -27,5 +32,14 @@
     void OnResetPassword(string value, string name)
     {
 
+    }
+
+    private async Task<bool> ValidateUser(){
+        ((CustomAuthenticationStateProvider)AuthenticationStateProvider).MarkUserAsAuthenticated(userName);
+        NavigationManager.NavigateTo("/");
+
+        await sessionStorage.SetItemAsync("studentCode",userName);
+
+        return await Task.FromResult(true);
     }
 }
